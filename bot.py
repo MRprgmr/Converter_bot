@@ -8,7 +8,7 @@ import string
 from func_timeout import func_timeout, FunctionTimedOut
 
 
-bot = telebot.TeleBot("1247598547:AAEUzdNwjdz3QVSaKL3pLrTuJ4z3ifUrv78")
+bot = telebot.TeleBot("token")
 
 
 comment = False
@@ -22,10 +22,10 @@ img_list2 = ["jpg","pdf","png","webp"]
 doc_list1 = ["csv", "doc", "docx", "ppt", "pptx","txt", "xls", "xlsx"]
 doc_list2 = ["jpg", "pdf", "png", "txt"]
 pdf_list = ["jpg", "png", "pptx", "txt"]
-url_file = "https://api.telegram.org/file/bot1247598547:AAEUzdNwjdz3QVSaKL3pLrTuJ4z3ifUrv78/"
+url_file = "https://api.telegram.org/file/bottoken/"
 
 def get_random_string(length):
-    letters = string.ascii_lowercase
+    letters = s
     result_str = ''.join(random.choice(letters) for i in range(length))
     return result_str
 
